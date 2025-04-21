@@ -68,7 +68,9 @@
 // 3. How do you know when the crawler is done?
 
 interface HtmlParser {
-    List<String> getUrls(String url);
+  // Return a list of all urls from a webpage of given url.
+  // This is a blocking call, that means it will do HTTP request and return when this request is finished.
+  public List<String> getUrls(String url);
 }
 
 class Solution {
@@ -98,6 +100,7 @@ class Solution {
         }
     }
 
+    // startUrl = "http://news.yahoo.com/news/topics/"
     public List<String> crawl(String startUrl, HtmlParser htmlParser) {
         this.targetHostName = startUrl.split("/")[2];
         this.htmlParser = htmlParser;
