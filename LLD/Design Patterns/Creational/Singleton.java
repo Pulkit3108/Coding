@@ -22,17 +22,17 @@ public class Singleton {
     }
 }
 
-// Singleton class using Bill Pugh Singleton Implementation
-class Singleton {
-    private Singleton() {
+// Singleton class using the Bill Pugh implementation
+class BillPughSingleton {
+    private BillPughSingleton() {
         System.out.println("Singleton instance created");
     }
 
     private static class SingletonHelper {
-        private static final Singleton INSTANCE = new Singleton();
+        private static final BillPughSingleton INSTANCE = new BillPughSingleton();
     }
 
-    public static Singleton getInstance() {
+    public static BillPughSingleton getInstance() {
         return SingletonHelper.INSTANCE;
     }
 }

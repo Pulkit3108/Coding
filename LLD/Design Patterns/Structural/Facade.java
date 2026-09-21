@@ -82,7 +82,7 @@ class HomeTheaterFacade {
 }
 
 // Client
-public class FacadePatternExample {
+class FacadePatternExample {
     public static void main(String[] args) {
         DVDPlayer dvdPlayer = new DVDPlayer();
         Projector projector = new Projector();
