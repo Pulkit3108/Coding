@@ -9,6 +9,7 @@ A personal collection of programming exercises, course assignments, and low-leve
 | [Algorithms, Part I Coursera](Algorithms%2C%20Part%20I%20Coursera/) | Java course assignments and data-structure exercises |
 | [C++ Codes](CPP%20Codes/) | Algorithms, dynamic programming, graphs, recursion, and STL practice |
 | [CodeChef Problems](Codechef%20Problems/) | Contest and practice solutions |
+| [Codeforces Problems](Codeforces%20Problems/) | Contest solutions, primarily Div. 2 A and B problems |
 | [Coding Blocks](Coding%20Blocks/) | Introductory competitive-programming exercises |
 | [Golang](Golang/) | Progressive Go language and API examples |
 | [HackerRank Problems](HackerRank%20Problems/) | C, C++, Java, Python, and problem-solving solutions |
